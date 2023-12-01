@@ -5,7 +5,7 @@ mod HelloStarknet {
 
 
     #[event]
-    fn noods noodle(from: ContractAddress, value: felt252) {}
+    fn hi(from: ContractAddress, value: felt252) {}
 
 
     #[external]
