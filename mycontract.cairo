@@ -5,7 +5,7 @@ mod HelloStarknet {
 
 
     #[event]
-    fn Hello(from: ContractAddress, value: felt252) {}
+    fn Hi(from: ContractAddress, value: felt252) {}
 
 
     #[external]
